@@ -1,3 +1,5 @@
+# Reference: https://rszalski.github.io/magicmethods/
+
 class Point:
     def __init__(self, x, y) -> None:  # CONSTRUCTOR
         self.x = x
