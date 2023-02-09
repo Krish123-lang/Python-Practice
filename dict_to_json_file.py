@@ -6,4 +6,8 @@ f = open('file.json', "w")
 f.write(to_json)
 
 f = open('file.json', "r")
-print(f.read())
+x = f.read()
+
+final_data = json.loads(x)
+print(final_data)
+
